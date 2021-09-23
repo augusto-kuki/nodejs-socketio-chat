@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WebSocket</title>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <form action="chat.html">
+    <div class="container">
+      <div class="row">
+        <select name="select_room" id="select_room">
+          <option value="-1">Selecione a sala</option>
+          <option value="NodeJs">NodeJS</option>
+          <option value="ReactJs">ReactJs</option>
+          <option value="ReactNative">ReactNative</option>
+        </select>
+      </div>
+
+      <div class="row">
+        <input type="text" name="username" placeholder="Digite seu usuario" id="username" />
+      </div>
+
+      <div class="row">
+        <button type="submit" class="btn btn-primary mb-3">Entrar</button>
+      </div>
+    </div>
+  </form>
+</body>
+
+</html>
